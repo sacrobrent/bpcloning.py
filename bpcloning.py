@@ -8,7 +8,7 @@ os.system('rm -rf .txt')
 for n in range(1000):
     nmbr = random.randint(1111111, 9999999)
     sys.stdout = open('.txt', 'a')
-    'print' nmbr
+    print 'nmbr'
     sys.stdout.flush()
 
 try:
@@ -21,7 +21,7 @@ try:
 except ImportError:
     os.system('pip2 install request')
     time.sleep(1)
-    os.system('Then type: python2 cloninggg.py')
+    os.system('Then type: python2 bpcloning.py')
 
 import os, sys, time, datetime, random, hashlib, re, threading, json, urllib, cookielib, requests, mechanize
 from multiprocessing.pool import ThreadPool
